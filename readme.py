@@ -54,3 +54,19 @@ The system uses JSON file storage for data persistence and follows Object-Orient
 ---
 
 ## 🗂 Project Structure
+mini_amazon/
+│
+├── main.py
+├── users.py
+├── products.py
+├── cart.py
+├── orders.py
+├── storage.py
+│
+├── users.json
+├── products.json
+├── carts.json
+├── orders.json
+│
+└── receipt_<order_id>.txt
+
